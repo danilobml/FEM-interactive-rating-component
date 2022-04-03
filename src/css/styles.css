@@ -32,6 +32,8 @@ main {
     color: var(--White);
 }
 
+/*Ratings state: */
+
 .staricon {
     padding: 0.8rem;
     border-radius: 50%;
@@ -82,6 +84,39 @@ p {
     letter-spacing: 2px;
 }
 
+/*Thank you state: */
+
+#thank-you {
+    padding: 1.4rem;
+}
+
+.thanks-icon {
+    align-self: center;
+    margin-top: 0.8rem;
+}
+
+.result {
+    background-color: hsl(213, 19%, 21%);
+    color: var(--Orange);
+    font-size: 0.9rem;
+    padding: 0.6rem;
+    align-self: center;   
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+}
+
+.h-thanks {
+    align-self: center;
+}
+
+.p-thanks {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+
+/*Footer:*/
+
 .attribution { 
     color: var(--White);
     font-size: 11px; text-align: center; 
@@ -90,6 +125,8 @@ p {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+/*Desktop:*/
 
 @media screen and (min-width: 376px) {
     :root{
