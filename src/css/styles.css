@@ -91,6 +91,37 @@ p {
     color: hsl(228, 45%, 44%); 
 }
 
-@media screen and (min-width: 376) {
+@media screen and (min-width: 376px) {
+    :root{
+        font-size: 22px;
+    }
+
+    .container {
+        width: 400px;
+        padding: 2rem;
+    }
     
+    .ratebutton {
+        padding: 0.7rem 1rem;
+        font-size: 1rem;
+    }
+
+    .ratebutton:hover {
+        background-color: var(--Orange);
+        color: var(--White);
+    }
+
+    .ratebutton:focus {
+        background-color: var(--LightGrey);
+        color: var(--White);
+    }
+
+    .submit {
+        font-weight: 700;
+    }
+
+    .submit:hover {
+        background-color: var(--LightGrey);
+        color: var(--Orange);
+    }
 }
