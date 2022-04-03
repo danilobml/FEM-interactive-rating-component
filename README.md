@@ -60,7 +60,7 @@ Using Javascript to show/hide parts of the UI.
 
 ### Continued development
 
-I feel like I need a lot of practice with those UI elements (they still take me lomg time), and I appreciate tips and learning better ways of doing it.
+I feel like I need a lot of practice with those UI elements (they still take me long time), and I appreciate tips and learning better ways of doing it.
 
 ### Useful resources
 
